@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrap {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(./pic/header_desktop.png);
+  height: 420px;
+  position: relative;
+}
+
+.navbar {
+  color: #fff;
+  height: 56px;
+  line-height: 38px;
+  display: flex;
+}
+
+.navbar .logo {
+  margin-left: 42px;
+  font-size: 24px;
+  font-family: NotoSansCJKtc-Black;
+}
+
+.navbar > ul {
+  margin-left: 657px;
+}
+.navbar > ul > li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.head-adv {
+  width: 460px;
+  height: 152px;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.head-adv .text {
+  text-align: center;
+}
+
+.head-adv .text h1 {
+  height: 48px;
+  margin-top: 20px;
+}
+.head-adv .text-2 {
+  margin-top: 16px;
+}
+.head-adv .text-2 span {
+  display: block;
+}
+
+/*3個圖片介紹*/
+
+.main {
+  background-color: #efe9e7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.introduce-txt {
+  text-align: center;
+  color: #3d1101;
+  font-size: 20px;
+  position: relative;
+}
+.introduce-txt::before {
+  content: "";
+  width: 122px;
+  height: 1px;
+  display: inline-block;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  right: 27%;
+}
+
+.introduce-txt::after {
+  content: "";
+  width: 122px;
+  height: 1px;
+  display: inline-block;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+}
+
+.introduce {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-top: 31px;
+  justify-content: space-around;
+}
+
+.introduce .item {
+  width: 260px;
+}
+
+.item .item-pic1,
+.item-pic2,
+.item-pic3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.item .item-pic1 {
+  background-image: url(./pic/feature_1.png);
+}
+
+.item .item-pic2 {
+  background-image: url(./pic/feature_2.png);
+}
+
+.item .item-pic3 {
+  background-image: url(./pic/feature_3.png);
+}
+
+.item-txt h3 {
+  text-align: center;
+  margin: 20px auto 11px;
+}
+/*3個圖片介紹 end*/
+
+/*主廚 開始*/
+.chef {
+  height: 460px;
+  background-color: #3d1101;
+  display: flex;
+  font-size: 16px;
+}
+.chef-pic {
+  background-image: url(./pic/main_chef_brown.png);
+  width: 470px;
+  height: 460px;
+  margin-left: 46px;
+}
+.chef-text {
+  color: #efe9e7;
+  width: 410px;
+  margin-top: 81px;
+  margin-left: 25px;
+  text-align: left;
+}
+
+.chef-text .title {
+  margin-bottom: 16px;
+}
+
+.chef-text .text {
+  color: #efe9e7;
+  letter-spacing: 2.5px;
+}
+.chef-text .title:nth-child(1) p {
+  font-size: 20px;
+}
+
+/*主廚 end*/
+
+/*別人感想 開始*/
+.think {
+  padding-top: 50px;
+  background-color: #efe9e7;
+}
+
+.think h2 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.comment-group {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.comment {
+  width: 300px;
+  height: 203px;
+  padding: 5px;
+  display: flex;
+}
+.comment-pic1,
+.comment-pic2,
+.comment-pic3 {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.comment-pic1 {
+  background-image: url(./pic/avatar_1.png);
+}
+
+.comment-pic2 {
+  background-image: url(./pic/avatar_2.png);
+}
+
+.comment-pic3 {
+  background-image: url(./pic/avatar_3.png);
+}
+
+.comment-info {
+  width: 220px;
+  margin-top: 30px;
+  margin-left: 13px;
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 16px;
+  color: #3d1101;
+}
+
+.comment-name {
+  margin-bottom: 22px;
+}
+.comment-pos {
+  float: right;
+  margin-top: 16px;
+}
+
+/*別人感想 結束*/
+
+/*位置 開始*/
+.location {
+  height: 588px;
+  background-color: #fafafa;
+  padding-top: 50px;
+}
+.slogan {
+  text-align: center;
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 24px;
+  margin-bottom: 38px;
+  color: #3d1101;
+}
+
+.map {
+  height: 386px;
+  background-color: #fafafa;
+  display: flex;
+  font-size: 16px;
+}
+.map-pic {
+  background-image: url(./pic/Map.png);
+  width: 460px;
+  height: 386px;
+  margin-left: 42px;
+}
+
+/*位置 結束*/
