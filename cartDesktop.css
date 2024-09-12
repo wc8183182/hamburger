@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.wrap {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(./pic/header_desktop.png);
+  height: 420px;
+  position: relative;
+}
+
+.navbar {
+  color: #fff;
+  height: 56px;
+  line-height: 38px;
+  display: flex;
+}
+
+.navbar .logo {
+  margin-left: 42px;
+  font-size: 24px;
+  font-family: NotoSansCJKtc-Black;
+}
+
+.navbar > ul {
+  margin-left: 657px;
+}
+.navbar > ul > li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.head-adv {
+  width: 460px;
+  height: 152px;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.head-adv .text {
+  text-align: center;
+}
+
+.head-adv .text h1 {
+  height: 48px;
+  margin-top: 20px;
+}
+.head-adv .text-2 {
+  margin-top: 16px;
+}
+.head-adv .text-2 span {
+  display: block;
+}
+/*左半邊 開始*/
+.container {
+  width: 220px;
+  height: 128px;
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 20px;
+  color: #3d1101;
+  line-height: 32px;
+}
+
+.container li {
+  list-style-type: none;
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 16px;
+  color: #3d1101;
+  line-height: 32px;
+}
+
+/*左半邊 結束*/
