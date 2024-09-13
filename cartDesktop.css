@@ -62,7 +62,34 @@
 .head-adv .text-2 span {
   display: block;
 }
+.main {
+  background-color: #efe9e7;
+  padding-top: 52px;
+  display: flex;
+}
+
 /*左半邊 開始*/
+
+.left {
+  padding-left: 50px;
+}
+.title {
+  width: 220px;
+  display: flex;
+  vertical-align: bottom;
+}
+.title-logo {
+  width: 26px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+}
+.fa-brands fa-drupal {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  font-size: large;
+}
 .container {
   width: 220px;
   height: 128px;
@@ -70,8 +97,13 @@
   font-size: 20px;
   color: #3d1101;
   line-height: 32px;
+  border: 1px solid #000000;
 }
 
+.container :hover {
+  background-color: #3d1101;
+  color: #fff;
+}
 .container li {
   list-style-type: none;
   font-family: MicrosoftJhengHeiRegular;
@@ -81,3 +113,56 @@
 }
 
 /*左半邊 結束*/
+/*右半邊 開始*/
+.right {
+  padding: 15px;
+  width: 742px;
+}
+
+.right .navbar {
+  width: 679px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right .navbar .search-left {
+  width: 460px;
+  height: 32px;
+  border: 2px solid #3d1101;
+  position: relative;
+}
+
+.right .navbar .search-left span {
+  width: 36px;
+  height: 32px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.fa-magnifying-glass {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-25%);
+}
+
+.navbar .navbar-right {
+  width: 107px;
+  height: 29px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #3d1101;
+}
+
+.fa-cart-shopping {
+  background-color: #3d1101;
+  vertical-align: bottom;
+}
+
+/*右半邊 結束*/
